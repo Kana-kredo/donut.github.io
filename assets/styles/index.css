@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(248, 228, 203, 0.708);
+}
+
+/*  ヘッダー */
+header {
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+    padding: 3%;
+}
+
+header li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+.main {
+    background-image: url("../images/maindonut.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    margin-top: 1%;
+}
+
+.main-text {
+    color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-right: 8%;
+    padding-bottom: 10%;
+    padding-left: 4%;
+}
+
+.main h1 {
+    font-size: 80px;
+}
+
+.main a {
+    color: white;
+    background-color: rgb(224, 127, 147);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4em 1em;
+    margin-top: 0.5em;
+    border-radius: 10px;
+}
+
+
+/* 3 おすすめドーナツ */
+.menu {
+    width: 85%;
+    margin: 2em auto;
+}
+
+.menu h2 {
+    text-transform: uppercase;
+    color: rgb(62,22,14);
+    text-align: center;
+    font-weight: p00;
+    letter-spacing: 3px;
+}
+
+.menu hr {
+    background-color: rgb(212, 70, 107);
+    height: 2px;
+    width: 48%;
+    margin: auto;
+}
+
+.menu-items {
+    width: 19.2%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-item5 {
+    margin-right: 0;
+}
+
+.menu-items img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* シェフ紹介 */
+.about {
+    padding: 0.5% 5%;
+    /* background-color: #41475B; */
+    background-color: #5B5F74;
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    margin-top: 12em;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.chef {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    box-shadow: 3px 3px 10px black;
+}
+
+.about-text {
+    margin-left: 40%;
+    color: white;
+    margin-top: 5%;
+}
+
+.about-text-chef {
+    text-align: right;
+    font-style: italic;
+}
+
+.about-text span {
+    color: rgb(215, 161, 79);
+}
+
+
+/* 店舗情報 */
+
+/* .photo {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.information {
+    width: 85%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.store {
+    width: 48.5%;
+    float: left;
+    height: 450px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.recruit {
+    width: 48.5%;
+    float: left;
+    height: 450px;
+    margin-bottom: 3%;
+}
+
+.information p a {
+    text-decoration: none;
+    color: rgb(241, 30, 65);
+} */
+
+.ads {
+    width: 85%;
+    margin: 1em auto;
+    overflow: auto;
+}
+
+.ads-items {
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.ads-item1 {
+    margin-right: 3%;
+    background-image: url(../images/shop.jpg);
+}
+
+.ads-item2 {
+    background-image: url(../images/onlineshopping.jpg);
+}
+
+.ads-item3 {
+    margin-right: 3%;
+    background-image: url("../images/joinus.jpg");
+}
+
+.ads-item4 {
+    background-image: url("../images/news2.jpg");
+}
+
+.ads-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+}
+
+.ads-text h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.ads-text a {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 5px #312a26;
+}
+
+
+
+
+/* フッター */
+
+footer {
+    padding-top: 2em;
+    background-image: url("../images/backgraund6.jpg");
+    background-size: cover;
+    background-position: center 20%;
+   
+}
+
+
+
+.footer-contents {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.contact {
+    width: 48%;
+    float: left;
+    margin-right: 8%;
+}
+
+footer form {
+    background-color: rgba(0, 0, 0, 0.516);
+    margin: 2% 0%;
+    padding: 2%;
+    font-size: 13px;
+    width: 80%;
+}
+
+.border {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px 0;
+    margin: 0px 30px;
+}
+
+footer textarea {
+    background: transparent;
+    border: 1.5px solid rgba(255,255,255,0.5);
+    color: white;
+    
+}
+
+.send {
+    display: block;
+    margin: auto;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.social {
+    width: 44%;
+    float: left;
+}
+
+.social-widgets {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.social-widget3 {
+    margin-right: 0;
+}
+
+.social-widgets img {
+    width: 3em;
+}
+
+.time {
+    margin-top: 18%;
+}
+
+.time ul {
+    list-style: none;
+}
+
+.copyright {
+    color: white;
+    background-color:rgba(0, 0, 0, 0.671);
+    overflow: auto;
+    padding: 1em 7.5%;
+    font-weight: 600px;
+}
+
+.copyright p {
+    text-align: center;
+}

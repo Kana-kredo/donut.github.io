@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(248, 228, 203, 0.708);
+}
+
+/*  ヘッダー */
+header {
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+    padding: 3%;
+}
+
+header li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+.main h1 {
+    color: rgb(62,22,14);
+    text-align: left;
+    padding: 0% 1%;
+    font-size: 100px;
+}
+
+.main img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    margin: auto;
+}
+
+/* naiyou */
+
+.about {
+    color: rgb(62,22,14);
+    font-family: sans-serif;
+    width: 100%;
+    padding: 2% 5%;
+    overflow: auto;
+}
+
+
+.shopimg {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    padding-right: 5%;
+}
+
+/* フッター */
+
+footer {
+    padding-top: 2em;
+    background-image: url("../images/backgraund6.jpg");
+    background-size: cover;
+    background-position: center 20%;
+   
+}
+
+
+
+.footer-contents {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.contact {
+    width: 48%;
+    float: left;
+    margin-right: 8%;
+}
+
+footer form {
+    background-color: rgba(0, 0, 0, 0.516);
+    margin: 2% 0%;
+    padding: 2%;
+    font-size: 13px;
+    width: 80%;
+}
+
+.border {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px 0;
+    margin: 0px 30px;
+}
+
+footer textarea {
+    background: transparent;
+    border: 1.5px solid rgba(255,255,255,0.5);
+    color: white;
+    
+}
+
+.send {
+    display: block;
+    margin: auto;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.social {
+    width: 44%;
+    float: left;
+}
+
+.social-widgets {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.social-widget3 {
+    margin-right: 0;
+}
+
+.social-widgets img {
+    width: 3em;
+}
+
+.time {
+    margin-top: 18%;
+}
+
+.time ul {
+    list-style: none;
+}
+
+.copyright {
+    color: white;
+    background-color:rgba(0, 0, 0, 0.671);
+    overflow: auto;
+    padding: 1em 7.5%;
+    font-weight: 600px;
+}
+
+.copyright p {
+    text-align: center;
+}
+
+
